@@ -1,1 +1,29 @@
-
+:root{--bg:#f7f8f8;--card:#fff;--tx:#16211f;--mut:#5c6b68;--ac:#0f766e;--bd:#e3e7e6}
+[data-theme="dark"]{--bg:#0e1726;--card:#152033;--tx:#e8eef7;--mut:#93a1b5;--ac:#34d399;--bd:#233247}
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+a{color:var(--ac);text-decoration:none}a:hover{text-decoration:underline}
+header{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:5}
+.brand{font-weight:800;font-size:18px;color:var(--tx)}
+nav.top a{margin:0 6px;color:var(--mut);font-size:14px}
+.lang{display:flex;gap:8px;align-items:center}.lang button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:999px;cursor:pointer}
+main{max-width:860px;margin:0 auto;padding:16px}
+.crumb{font-size:13px;color:var(--mut)}
+h1{font-size:28px;margin:14px 0 6px;text-align:center}
+.desc{text-align:center;color:var(--mut);margin:0 0 14px}
+.q{width:100%;max-width:420px;display:block;margin:0 auto 16px;padding:12px;border-radius:999px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.fields{display:grid;gap:10px;max-width:420px;margin:0 auto}
+.fields label{display:grid;gap:4px;font-size:14px;color:var(--mut)}
+.fields input,.fields select{padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font-size:16px}
+.res{margin-top:14px;text-align:center}
+.res .big{font-size:34px;font-weight:800}
+.res .sub{color:var(--mut);font-size:14px;margin-bottom:8px}
+.res .line{display:flex;justify-content:space-between;gap:10px;max-width:420px;margin:6px auto;padding:8px 12px;border:1px dashed var(--bd);border-radius:10px}
+.acts{display:flex;gap:8px;justify-content:center;margin:12px 0}
+.acts button{padding:8px 14px;border-radius:999px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer}
+.ad{margin:16px 0;min-height:90px;display:flex;align-items:center;justify-content:center;border:1px dashed var(--bd);border-radius:10px;color:var(--mut);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;text-align:center;color:var(--tx)}
+.tile:hover{border-color:var(--ac)}
+h2{font-size:20px;margin:22px 0 8px}h3{font-size:16px;margin:14px 0 4px}
+footer{margin:30px 0 10px;text-align:center;color:var(--mut);font-size:13px}
