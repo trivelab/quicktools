@@ -21,6 +21,7 @@ C.forEach(c=>{const p="/"+l+"/"+c.id+"/";paths.push(p);W("dist"+p+"index.html",p
 T.forEach(t=>{const p="/"+l+"/"+t.cat+"/"+t.id+"/";paths.push(p);W("dist"+p+"index.html",pg(l,p,t[l],t[l],tb(l,t)))});
 [["about",`<h1>${U.about[l]}</h1><p>QuickTools</p>`],["privacy",`<h1>${U.priv[l]}</h1><p>${l==="es"?"Sin datos personales.":"No personal data."}</p>`],["terms",`<h1>${U.terms[l]}</h1><p>${U.disc[l]}</p>`],["contact",`<h1>${U.contact[l]}</h1><p>contact@quicktools.site</p>`]].forEach(x=>{const p="/"+l+"/"+x[0]+"/";paths.push(p);W("dist"+p+"index.html",pg(l,p,x[0],U.tag[l],x[1]))});
 });
+W("dist/google2e57c5c982c6259b.html","google-site-verification: google2e57c5c982c6259b.html");
 W("dist/index.html",'<!DOCTYPE html><meta charset="utf-8"><script>location.replace((navigator.language||"en").indexOf("es")===0?"/es/":"/en/")</script>');
 W("dist/sitemap.xml",'<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+paths.map(p=>"<url><loc>"+S+p+"</loc></url>").join("")+"</urlset>");
 W("dist/robots.txt","User-agent: *\nAllow: /\nSitemap: "+S+"/sitemap.xml");
