@@ -27,3 +27,10 @@ h1{font-size:28px;margin:14px 0 6px;text-align:center}
 .tile:hover{border-color:var(--ac)}
 h2{font-size:20px;margin:22px 0 8px}h3{font-size:16px;margin:14px 0 4px}
 footer{margin:30px 0 10px;text-align:center;color:var(--mut);font-size:13px}
+h1{font-size:24px;margin:10px 0 2px}
+h2{font-size:17px;margin:16px 0 6px}
+.grid{gap:6px;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+.tile{border:0;background:transparent;padding:6px 4px}
+.tile b{font-size:14px}
+.tile small{font-size:11px}
+@media(max-width:600px){h1{font-size:21px}nav.top a{margin:0 4px;font-size:13px}.grid{grid-template-columns:repeat(auto-fill,minmax(100px,1fr))}.tile b{font-size:13px}}
