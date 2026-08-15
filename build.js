@@ -1,6 +1,6 @@
 const fs=require("fs"),P=require("path");
 const {cats:C,tools:T}=require("./src/tools.js");
-const S="https://quicktools.aplicativos-trivelab.workers.dev";
+const S="https://speedytools.org";
 const L=["en","es"];
 const U={tag:{en:"Free online calculators",es:"Calculadoras online gratis"},home:{en:"Home",es:"Inicio"},try:{en:"Try also",es:"Prueba también"},faq:{en:"FAQ",es:"Preguntas"},how:{en:"How to use",es:"Cómo usar"},share:{en:"Share",es:"Compartir"},fav:{en:"Save",es:"Guardar"},pop:{en:"Most popular",es:"Más populares"},all:{en:"tools",es:"herramientas"},disc:{en:"Informative only.",es:"Solo informativo."},priv:{en:"Privacy",es:"Privacidad"},terms:{en:"Terms",es:"Términos"},about:{en:"About",es:"Acerca"},contact:{en:"Contact",es:"Contacto"}};
 const H1={money:{en:"Money & Finance Calculators",es:"Calculadoras de Finanzas"},health:{en:"Health Calculators",es:"Calculadoras de Salud"},everyday:{en:"Everyday Tools & Calculators",es:"Herramientas y Utilidades Diarias"},fun:{en:"Fun Tests & Calculators",es:"Tests y Calculadoras Divertidas"}};
